@@ -1,1 +1,2 @@
-echo '<h1>' . $input . '</h1>';
+$filename = $_GET["filename"];
+include $filename; // Noncompliant
